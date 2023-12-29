@@ -1,0 +1,60 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>College/University App</title>
+  <!-- Include necessary CSS frameworks or custom styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>College/University App</h1>
+    <!-- Navigation Links -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#student-portal">Student Portal</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- Student Sign-in Section -->
+    <section id="student-portal">
+      <h2>Student Sign-In</h2>
+      <form id="signin-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit">Sign In</button>
+      </form>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Include necessary JavaScript files or scripts -->
+  <script src="scripts.js"></script>
+</body>
+
+</html>
